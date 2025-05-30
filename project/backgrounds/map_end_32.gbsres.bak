@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bde14f8d-0ad5-4108-92af-0610ac787543",
+  "name": "map_end_32",
+  "symbol": "bg_map32",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "map_end_32.png",
+  "tileColors": ""
+}
