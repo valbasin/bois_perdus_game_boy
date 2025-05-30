@@ -1,0 +1,132 @@
+{
+  "_resourceType": "scene",
+  "id": "1bf9156a-5d46-444b-b253-b3818e081864",
+  "_index": 1,
+  "name": "Scène 2",
+  "backgroundId": "bde14f8d-0ad5-4108-92af-0610ac787543",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00400+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 744,
+  "y": 160,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "8319fb88-adc0-466a-ba32-e1237d266072"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "16"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Bravo, tu t'es \néchappé.e des bois\nperdus"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0f8b4e0c-ae6d-477f-9e86-e30bbe0ad2f5"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "16"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MUTE_CHANNEL",
+                  "args": {
+                    "channels": []
+                  },
+                  "id": "61ffaa18-4256-4c65-8a61-44c7f7523e84"
+                }
+              ],
+              "false": []
+            },
+            "id": "2ea8067f-fe3d-4a80-8534-62821f476eae"
+          }
+        ],
+        "false": []
+      },
+      "id": "f47422b5-a820-4e62-824f-d652527c8760"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "16",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "0a996269-43e7-4bcb-a9ca-db18703580ee"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "17",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "1ba1412b-5321-4c4a-8e45-7c207d10ee2f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

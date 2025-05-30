@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "505aeee7-98b3-4f3a-9265-cbad41e1c0de",
+  "name": "map32_normal",
+  "symbol": "bg_map32_normal",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "map32_normal.png",
+  "tileColors": "",
+  "autoColor": false
+}

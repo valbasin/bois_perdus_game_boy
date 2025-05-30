@@ -1,0 +1,100 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Seen Cat",
+      "symbol": ""
+    },
+    {
+      "id": "1",
+      "name": "Seen duck",
+      "symbol": ""
+    },
+    {
+      "id": "2",
+      "name": "Used Radio",
+      "symbol": ""
+    },
+    {
+      "id": "3",
+      "name": "Spoke To Space Dog",
+      "symbol": ""
+    },
+    {
+      "id": "4",
+      "name": "Quest1",
+      "symbol": ""
+    },
+    {
+      "id": "5",
+      "name": "Quest2",
+      "symbol": ""
+    },
+    {
+      "id": "6",
+      "name": "Quest3",
+      "symbol": ""
+    },
+    {
+      "id": "7",
+      "name": "Quest4",
+      "symbol": ""
+    },
+    {
+      "id": "8",
+      "name": "Quest5",
+      "symbol": ""
+    },
+    {
+      "id": "9",
+      "name": "Quest6",
+      "symbol": ""
+    },
+    {
+      "id": "10",
+      "name": "NewGame",
+      "symbol": ""
+    },
+    {
+      "id": "11",
+      "name": "SaveGame",
+      "symbol": ""
+    },
+    {
+      "id": "12",
+      "name": "PushedIceBlock",
+      "symbol": ""
+    },
+    {
+      "id": "ba749ba2-79e3-4233-91ad-a375e7472f20__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "13",
+      "name": "declencheur_gauche",
+      "symbol": "var_declencheur_gauche"
+    },
+    {
+      "id": "14",
+      "name": "declencheur_haut",
+      "symbol": "var_declencheur_haut"
+    },
+    {
+      "id": "15",
+      "name": "declencheur_droite",
+      "symbol": "var_declencheur_droite"
+    },
+    {
+      "id": "16",
+      "name": "aVariable_cool",
+      "symbol": "var_avariable_cool"
+    },
+    {
+      "id": "17",
+      "name": "affiche_texte",
+      "symbol": "var_affiche_texte"
+    }
+  ]
+}
